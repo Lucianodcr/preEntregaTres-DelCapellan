@@ -1,0 +1,18 @@
+/*MIXIN*/
+
+@mixin botones {
+    font-size: 1.5rem;
+    background-color: $background-color_5;
+    color: $color_1;
+
+    &:hover {
+        border: white 2px solid;
+        background-color: $background-color_6;
+        color: $color_8;
+    }
+
+}
+
+.estiloBotones {
+    @include botones;
+}

@@ -1,0 +1,42 @@
+/*BOTONES*/
+.botEnviar {
+    background-color: $background-color_5;
+    color: $color_1;
+  
+
+    &:hover {
+        border: white 2px solid;
+        background-color: $background-color_6;
+        color: $color_8;
+    }
+}
+
+.botonPreg {
+    font-size: 1.5rem;
+    background-color: $background-color_5;
+    color: $color_1;
+
+    &:hover {
+        border: white 2px solid;
+        background-color: $background-color_6;
+        color: $color_8;
+    }
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerCollapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cenBotonEnv{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}

@@ -1,0 +1,25 @@
+/*FOOTER*/
+
+
+.footcol {
+	color: $color_2;
+
+	
+}
+
+.footbor {
+	background-image: url(../img/backgroundNav.jpg);
+	width: 100%;
+	border-top: #ffffff solid 3px;
+
+	
+}
+
+
+.centerFoot{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}

@@ -1,0 +1,192 @@
+/*BODY*/
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Rubik&display=swap";
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  background-image: url(../img/background2.jpg);
+  width: 100%;
+}
+
+/*FUENTES*/ /*HEADER*/
+.navclr {
+  border-bottom: white solid 3px;
+  background-image: url(../img/backgroundNav.jpg);
+  width: 100%;
+}
+
+.listanav {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.listanav:hover {
+  text-decoration: underline white;
+}
+
+.tamLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 100%;
+}
+
+/*CAROUSEL*/
+.carou {
+  height: 350px;
+  object-fit: cover;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h2 {
+  color: rgb(37, 36, 36);
+  font-size: 2.5rem;
+}
+
+h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.fondoCordon2 {
+  background-color: #4149c5;
+  color: #fafafa;
+}
+
+.fondoCordon1 {
+  background-color: #90b5d9;
+  color: #fafafa;
+}
+
+.fondoCaba {
+  background-color: #9c9894;
+  color: #fafafa;
+}
+
+.colorPrecio1 {
+  color: #9c9894;
+  font-size: 3rem;
+}
+
+.colorPrecio2 {
+  color: #90b5d9;
+  font-size: 3rem;
+}
+
+.colorPrecio3 {
+  color: #4149c5;
+  font-size: 3rem;
+}
+
+.cardflex {
+  display: flex;
+  justify-content: center;
+}
+
+.lineaTexto {
+  border-top: 1px solid #bebebe;
+  padding-top: 1.5rem;
+}
+
+/*BOTONES*/
+.botEnviar {
+  background-color: #861da7;
+  color: white;
+}
+.botEnviar:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+.botonPreg {
+  font-size: 1.5rem;
+  background-color: #861da7;
+  color: white;
+}
+.botonPreg:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerCollapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cenBotonEnv {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+/*ICONOS*/
+.tamicon {
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.tamIconServ {
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+
+/*FOOTER*/
+.footcol {
+  color: rgb(255, 255, 255);
+}
+
+.footbor {
+  background-image: url(../img/backgroundNav.jpg);
+  width: 100%;
+  border-top: #ffffff solid 3px;
+}
+
+.centerFoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*MIXIN*/
+.estiloBotones {
+  font-size: 1.5rem;
+  background-color: #861da7;
+  color: white;
+}
+.estiloBotones:hover {
+  border: white 2px solid;
+  background-color: #f752cd;
+  color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */

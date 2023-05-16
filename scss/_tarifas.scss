@@ -1,0 +1,39 @@
+.fondoCordon2 {
+    background-color: $color_6;
+    color: $color_3;
+}
+
+.fondoCordon1 {
+    background-color: $color_5;
+    color: $color_3;
+}
+
+.fondoCaba {
+    background-color: $color_4;
+    color: $color_3;
+}
+
+.colorPrecio1 {
+    color: $color_4;
+    font-size: 3rem;
+}
+
+.colorPrecio2 {
+    color: $color_5;
+    font-size: 3rem;
+}
+
+.colorPrecio3 {
+    color: $color_6;
+    font-size: 3rem;
+}
+
+.cardflex {
+    display: flex;
+    justify-content: center;
+}
+
+.lineaTexto {
+    border-top: 1px solid #bebebe;
+    padding-top: 1.5rem;
+}
